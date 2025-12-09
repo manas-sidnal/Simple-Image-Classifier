@@ -26,3 +26,11 @@ A simple Convolutional Neural Network (CNN) for MNIST handwritten digit classifi
    ```
 
 3. Run `Simple-Image-Classifier.ipynb` cells top → down. The trained model will be saved to `models/`.
+
+4. Run `OpenCV-Demo.ipynb` to test the saved model.
+
+   This notebook:
+   - Loads the trained model from `models/`
+   - Applies OpenCV preprocessing (resize → blur → resize)
+   - Runs inference on a sample MNIST test image
+   - Displays original, processed, and predicted outputs
